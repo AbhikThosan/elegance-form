@@ -1,12 +1,29 @@
-# React + Vite
+Setup Instructions
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To run the project locally, follow these steps:
 
-Currently, two official plugins are available:
+Clone the Repository:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+git clone https://github.com/AbhikThosan/elegance-form.git
 
-## Expanding the ESLint configuration
+cd elegance-form
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Install Dependencies:
+
+npm install
+
+Run the Development Server:
+
+npm run dev
+
+Open the Application:
+
+Navigate to http://localhost:5173 in your browser.
+
+Screenshots:
+
+Form:
+<img src="screenshots/form.png" alt="form" width="500">
+
+Prompt:
+<img src="screenshots/prompt.png" alt="prompt" width="500">
